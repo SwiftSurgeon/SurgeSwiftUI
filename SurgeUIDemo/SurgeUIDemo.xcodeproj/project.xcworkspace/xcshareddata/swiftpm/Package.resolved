@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Playbook",
+        "repositoryURL": "https://github.com/playbook-ui/playbook-ios",
+        "state": {
+          "branch": null,
+          "revision": "b2f25b15e82bc9aca59d60e79695f0c338e0e2e9",
+          "version": "0.3.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

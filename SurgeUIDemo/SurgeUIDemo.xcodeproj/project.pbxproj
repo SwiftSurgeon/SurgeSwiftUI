@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1EB93BA2715E13100A0C585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EB93B92715E13100A0C585 /* Assets.xcassets */; };
+		DFA8172D277FEC5700ED02E7 /* SurgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DFA8172C277FEC5700ED02E7 /* SurgeUI */; };
+		FA0AB71E26FA8C7B008F337F /* SurgeUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB71D26FA8C7B008F337F /* SurgeUIDemoApp.swift */; };
+		FA0AB72026FA8C7B008F337F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB71F26FA8C7B008F337F /* ContentView.swift */; };
+		FA0AB72526FA8C7C008F337F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0AB72426FA8C7C008F337F /* Preview Assets.xcassets */; };
+		FA0AB73026FA8C7C008F337F /* SurgeUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB72F26FA8C7C008F337F /* SurgeUIDemoTests.swift */; };
+		FA0AB73B26FA8C7C008F337F /* SurgeUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB73A26FA8C7C008F337F /* SurgeUIDemoUITests.swift */; };
+		FA0AB75426FA8CC7008F337F /* MoleculeScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB74A26FA8CC7008F337F /* MoleculeScenarios.swift */; };
+		FA0AB75526FA8CC7008F337F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB74B26FA8CC7008F337F /* ButtonView.swift */; };
+		FA0AB75726FA8CC7008F337F /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB74E26FA8CC7008F337F /* ColorView.swift */; };
+		FA0AB75826FA8CC7008F337F /* AtomScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB74F26FA8CC7008F337F /* AtomScenarios.swift */; };
+		FA0AB75926FA8CC7008F337F /* AllScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB75026FA8CC7008F337F /* AllScenarios.swift */; };
+		FA0AB75A26FA8CC7008F337F /* OrganismScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB75226FA8CC7008F337F /* OrganismScenarios.swift */; };
+		FA0AB75F26FA8E42008F337F /* PlaybookUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA0AB75E26FA8E42008F337F /* PlaybookUI */; };
+		FA0AB76126FA8E42008F337F /* Playbook in Frameworks */ = {isa = PBXBuildFile; productRef = FA0AB76026FA8E42008F337F /* Playbook */; };
+		FA0AB76326FA8E42008F337F /* PlaybookSnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = FA0AB76226FA8E42008F337F /* PlaybookSnapshot */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0AB72C26FA8C7C008F337F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0AB71226FA8C7B008F337F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0AB71926FA8C7B008F337F;
+			remoteInfo = ZioUIDemo;
+		};
+		FA0AB73726FA8C7C008F337F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0AB71226FA8C7B008F337F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0AB71926FA8C7B008F337F;
+			remoteInfo = ZioUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1EB93B92715E13100A0C585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Scenarios/Assets.xcassets; sourceTree = "<group>"; };
+		DFA81726277FE79E00ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
+		DFA81729277FE84900ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
+		FA0AB71A26FA8C7B008F337F /* SurgeUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgeUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0AB71D26FA8C7B008F337F /* SurgeUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeUIDemoApp.swift; sourceTree = "<group>"; };
+		FA0AB71F26FA8C7B008F337F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0AB72426FA8C7C008F337F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0AB72626FA8C7C008F337F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0AB72B26FA8C7C008F337F /* SurgeUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurgeUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0AB72F26FA8C7C008F337F /* SurgeUIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeUIDemoTests.swift; sourceTree = "<group>"; };
+		FA0AB73126FA8C7C008F337F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0AB73626FA8C7C008F337F /* SurgeUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurgeUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0AB73A26FA8C7C008F337F /* SurgeUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeUIDemoUITests.swift; sourceTree = "<group>"; };
+		FA0AB73C26FA8C7C008F337F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0AB74A26FA8CC7008F337F /* MoleculeScenarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoleculeScenarios.swift; sourceTree = "<group>"; };
+		FA0AB74B26FA8CC7008F337F /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		FA0AB74E26FA8CC7008F337F /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		FA0AB74F26FA8CC7008F337F /* AtomScenarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomScenarios.swift; sourceTree = "<group>"; };
+		FA0AB75026FA8CC7008F337F /* AllScenarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllScenarios.swift; sourceTree = "<group>"; };
+		FA0AB75226FA8CC7008F337F /* OrganismScenarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganismScenarios.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0AB71726FA8C7B008F337F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AB75F26FA8E42008F337F /* PlaybookUI in Frameworks */,
+				FA0AB76126FA8E42008F337F /* Playbook in Frameworks */,
+				FA0AB76326FA8E42008F337F /* PlaybookSnapshot in Frameworks */,
+				DFA8172D277FEC5700ED02E7 /* SurgeUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB72826FA8C7C008F337F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB73326FA8C7C008F337F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA81727277FE81100ED02E7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DFA81729277FE84900ED02E7 /* SurgeUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		FA0AB71126FA8C7B008F337F = {
+			isa = PBXGroup;
+			children = (
+				DFA81727277FE81100ED02E7 /* Packages */,
+				FA0AB71C26FA8C7B008F337F /* SurgeUIDemo */,
+				FA0AB72E26FA8C7C008F337F /* SurgeUIDemoTests */,
+				FA0AB73926FA8C7C008F337F /* SurgeUIDemoUITests */,
+				DFA81726277FE79E00ED02E7 /* SurgeUI */,
+				FA0AB71B26FA8C7B008F337F /* Products */,
+				FA0AB76626FA8E5B008F337F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0AB71B26FA8C7B008F337F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB71A26FA8C7B008F337F /* SurgeUIDemo.app */,
+				FA0AB72B26FA8C7C008F337F /* SurgeUIDemoTests.xctest */,
+				FA0AB73626FA8C7C008F337F /* SurgeUIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0AB71C26FA8C7B008F337F /* SurgeUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB71D26FA8C7B008F337F /* SurgeUIDemoApp.swift */,
+				FA0AB71F26FA8C7B008F337F /* ContentView.swift */,
+				FA0AB74826FA8CC7008F337F /* Scenarios */,
+				B1EB93B92715E13100A0C585 /* Assets.xcassets */,
+				FA0AB72626FA8C7C008F337F /* Info.plist */,
+				FA0AB72326FA8C7C008F337F /* Preview Content */,
+			);
+			path = SurgeUIDemo;
+			sourceTree = "<group>";
+		};
+		FA0AB72326FA8C7C008F337F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB72426FA8C7C008F337F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0AB72E26FA8C7C008F337F /* SurgeUIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB72F26FA8C7C008F337F /* SurgeUIDemoTests.swift */,
+				FA0AB73126FA8C7C008F337F /* Info.plist */,
+			);
+			path = SurgeUIDemoTests;
+			sourceTree = "<group>";
+		};
+		FA0AB73926FA8C7C008F337F /* SurgeUIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB73A26FA8C7C008F337F /* SurgeUIDemoUITests.swift */,
+				FA0AB73C26FA8C7C008F337F /* Info.plist */,
+			);
+			path = SurgeUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		FA0AB74826FA8CC7008F337F /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB74926FA8CC7008F337F /* Molecules */,
+				FA0AB74C26FA8CC7008F337F /* Atoms */,
+				FA0AB75026FA8CC7008F337F /* AllScenarios.swift */,
+				FA0AB75126FA8CC7008F337F /* Organisms */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		FA0AB74926FA8CC7008F337F /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB74B26FA8CC7008F337F /* ButtonView.swift */,
+				FA0AB74A26FA8CC7008F337F /* MoleculeScenarios.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		FA0AB74C26FA8CC7008F337F /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB74E26FA8CC7008F337F /* ColorView.swift */,
+				FA0AB74F26FA8CC7008F337F /* AtomScenarios.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		FA0AB75126FA8CC7008F337F /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB75226FA8CC7008F337F /* OrganismScenarios.swift */,
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		FA0AB76626FA8E5B008F337F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0AB71926FA8C7B008F337F /* SurgeUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0AB73F26FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemo" */;
+			buildPhases = (
+				FA0AB76926FA90FE008F337F /* ShellScript */,
+				FA0AB71626FA8C7B008F337F /* Sources */,
+				FA0AB71726FA8C7B008F337F /* Frameworks */,
+				FA0AB71826FA8C7B008F337F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0AB76526FA8E58008F337F /* PBXTargetDependency */,
+			);
+			name = SurgeUIDemo;
+			packageProductDependencies = (
+				FA0AB75E26FA8E42008F337F /* PlaybookUI */,
+				FA0AB76026FA8E42008F337F /* Playbook */,
+				FA0AB76226FA8E42008F337F /* PlaybookSnapshot */,
+				DFA8172C277FEC5700ED02E7 /* SurgeUI */,
+			);
+			productName = ZioUIDemo;
+			productReference = FA0AB71A26FA8C7B008F337F /* SurgeUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0AB72A26FA8C7C008F337F /* SurgeUIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0AB74226FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemoTests" */;
+			buildPhases = (
+				FA0AB72726FA8C7C008F337F /* Sources */,
+				FA0AB72826FA8C7C008F337F /* Frameworks */,
+				FA0AB72926FA8C7C008F337F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0AB72D26FA8C7C008F337F /* PBXTargetDependency */,
+			);
+			name = SurgeUIDemoTests;
+			productName = ZioUIDemoTests;
+			productReference = FA0AB72B26FA8C7C008F337F /* SurgeUIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0AB73526FA8C7C008F337F /* SurgeUIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0AB74526FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemoUITests" */;
+			buildPhases = (
+				FA0AB73226FA8C7C008F337F /* Sources */,
+				FA0AB73326FA8C7C008F337F /* Frameworks */,
+				FA0AB73426FA8C7C008F337F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0AB73826FA8C7C008F337F /* PBXTargetDependency */,
+			);
+			name = SurgeUIDemoUITests;
+			productName = ZioUIDemoUITests;
+			productReference = FA0AB73626FA8C7C008F337F /* SurgeUIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0AB71226FA8C7B008F337F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA0AB71926FA8C7B008F337F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FA0AB72A26FA8C7C008F337F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA0AB71926FA8C7B008F337F;
+					};
+					FA0AB73526FA8C7C008F337F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA0AB71926FA8C7B008F337F;
+					};
+				};
+			};
+			buildConfigurationList = FA0AB71526FA8C7B008F337F /* Build configuration list for PBXProject "SurgeUIDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0AB71126FA8C7B008F337F;
+			packageReferences = (
+				FA0AB75D26FA8E42008F337F /* XCRemoteSwiftPackageReference "playbook-ios" */,
+			);
+			productRefGroup = FA0AB71B26FA8C7B008F337F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0AB71926FA8C7B008F337F /* SurgeUIDemo */,
+				FA0AB72A26FA8C7C008F337F /* SurgeUIDemoTests */,
+				FA0AB73526FA8C7C008F337F /* SurgeUIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0AB71826FA8C7B008F337F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EB93BA2715E13100A0C585 /* Assets.xcassets in Resources */,
+				FA0AB72526FA8C7C008F337F /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB72926FA8C7C008F337F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB73426FA8C7C008F337F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA0AB76926FA90FE008F337F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint --strict | sed \"s/warning:/error:/\"\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0AB71626FA8C7B008F337F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AB75A26FA8CC7008F337F /* OrganismScenarios.swift in Sources */,
+				FA0AB75726FA8CC7008F337F /* ColorView.swift in Sources */,
+				FA0AB72026FA8C7B008F337F /* ContentView.swift in Sources */,
+				FA0AB75826FA8CC7008F337F /* AtomScenarios.swift in Sources */,
+				FA0AB75426FA8CC7008F337F /* MoleculeScenarios.swift in Sources */,
+				FA0AB75926FA8CC7008F337F /* AllScenarios.swift in Sources */,
+				FA0AB75526FA8CC7008F337F /* ButtonView.swift in Sources */,
+				FA0AB71E26FA8C7B008F337F /* SurgeUIDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB72726FA8C7C008F337F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AB73026FA8C7C008F337F /* SurgeUIDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AB73226FA8C7C008F337F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AB73B26FA8C7C008F337F /* SurgeUIDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0AB72D26FA8C7C008F337F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0AB71926FA8C7B008F337F /* SurgeUIDemo */;
+			targetProxy = FA0AB72C26FA8C7C008F337F /* PBXContainerItemProxy */;
+		};
+		FA0AB73826FA8C7C008F337F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0AB71926FA8C7B008F337F /* SurgeUIDemo */;
+			targetProxy = FA0AB73726FA8C7C008F337F /* PBXContainerItemProxy */;
+		};
+		FA0AB76526FA8E58008F337F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = FA0AB76426FA8E58008F337F /* ZioUI */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0AB73D26FA8C7C008F337F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+			};
+			name = Debug;
+		};
+		FA0AB73E26FA8C7C008F337F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0AB74026FA8C7C008F337F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SurgeUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SurgeUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0AB74126FA8C7C008F337F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SurgeUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SurgeUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA0AB74326FA8C7C008F337F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurgeUIDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurgeUIDemo.app/SurgeUIDemo";
+			};
+			name = Debug;
+		};
+		FA0AB74426FA8C7C008F337F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurgeUIDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurgeUIDemo.app/SurgeUIDemo";
+			};
+			name = Release;
+		};
+		FA0AB74626FA8C7C008F337F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurgeUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurgeUIDemo;
+			};
+			name = Debug;
+		};
+		FA0AB74726FA8C7C008F337F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurgeUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surgeforward.SurgeUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurgeUIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0AB71526FA8C7B008F337F /* Build configuration list for PBXProject "SurgeUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0AB73D26FA8C7C008F337F /* Debug */,
+				FA0AB73E26FA8C7C008F337F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0AB73F26FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0AB74026FA8C7C008F337F /* Debug */,
+				FA0AB74126FA8C7C008F337F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0AB74226FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0AB74326FA8C7C008F337F /* Debug */,
+				FA0AB74426FA8C7C008F337F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0AB74526FA8C7C008F337F /* Build configuration list for PBXNativeTarget "SurgeUIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0AB74626FA8C7C008F337F /* Debug */,
+				FA0AB74726FA8C7C008F337F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA0AB75D26FA8E42008F337F /* XCRemoteSwiftPackageReference "playbook-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/playbook-ui/playbook-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFA8172C277FEC5700ED02E7 /* SurgeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurgeUI;
+		};
+		FA0AB75E26FA8E42008F337F /* PlaybookUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA0AB75D26FA8E42008F337F /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			productName = PlaybookUI;
+		};
+		FA0AB76026FA8E42008F337F /* Playbook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA0AB75D26FA8E42008F337F /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			productName = Playbook;
+		};
+		FA0AB76226FA8E42008F337F /* PlaybookSnapshot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA0AB75D26FA8E42008F337F /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			productName = PlaybookSnapshot;
+		};
+		FA0AB76426FA8E58008F337F /* ZioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZioUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA0AB71226FA8C7B008F337F /* Project object */;
+}
