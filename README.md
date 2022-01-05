@@ -16,5 +16,6 @@ Initially this will include:
 * Support for SecureField
 * Loading HUDs
 
-Mobile Color Theme Library:
-![simulator_screenshot_98E5C75F-6DB6-41BC-A41C-001229A33FDF](https://user-images.githubusercontent.com/96930813/148253604-be68d9f3-c52d-4265-a393-7630ca6ffd72.png)
+Mobile Color Theme Library, see: https://www.envato.com/blog/color-scheme-trends-in-mobile-app-design/
+![Simulator Screen Shot - iPhone 11 - 2022-01-05 at 10 34 02](https://user-images.githubusercontent.com/96930813/148254101-609e4268-32c4-4bf4-ae0d-18b9e6567d45.png)
+
