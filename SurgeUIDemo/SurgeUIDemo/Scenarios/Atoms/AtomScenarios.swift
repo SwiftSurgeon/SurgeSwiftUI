@@ -7,6 +7,10 @@ struct AtomScenarios: ScenarioProvider {
             Scenario("Colors", layout: .sizing(h: .fill, v: 1100)) {
                 ColorView()
             }
+            
+            Scenario("Icons", layout: .fill) { _ in
+                IconView()
+            }
         }
     }
 }

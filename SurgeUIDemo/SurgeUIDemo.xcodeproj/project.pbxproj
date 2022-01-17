@@ -10,6 +10,7 @@
 		B1EB93BA2715E13100A0C585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EB93B92715E13100A0C585 /* Assets.xcassets */; };
 		DFA603D02789E6470051FD2D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA603CF2789E6470051FD2D /* ControlsView.swift */; };
 		DFA8172D277FEC5700ED02E7 /* SurgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DFA8172C277FEC5700ED02E7 /* SurgeUI */; };
+		DFC4A515279597160046DA44 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4A514279597160046DA44 /* IconView.swift */; };
 		FA0AB71E26FA8C7B008F337F /* SurgeUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB71D26FA8C7B008F337F /* SurgeUIDemoApp.swift */; };
 		FA0AB72026FA8C7B008F337F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB71F26FA8C7B008F337F /* ContentView.swift */; };
 		FA0AB72526FA8C7C008F337F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0AB72426FA8C7C008F337F /* Preview Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		DFA603CF2789E6470051FD2D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		DFA81726277FE79E00ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
 		DFA81729277FE84900ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
+		DFC4A514279597160046DA44 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		FA0AB71A26FA8C7B008F337F /* SurgeUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgeUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0AB71D26FA8C7B008F337F /* SurgeUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeUIDemoApp.swift; sourceTree = "<group>"; };
 		FA0AB71F26FA8C7B008F337F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				FA0AB74E26FA8CC7008F337F /* ColorView.swift */,
 				FA0AB74F26FA8CC7008F337F /* AtomScenarios.swift */,
+				DFC4A514279597160046DA44 /* IconView.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				FA0AB75726FA8CC7008F337F /* ColorView.swift in Sources */,
 				FA0AB72026FA8C7B008F337F /* ContentView.swift in Sources */,
 				FA0AB75826FA8CC7008F337F /* AtomScenarios.swift in Sources */,
+				DFC4A515279597160046DA44 /* IconView.swift in Sources */,
 				FA0AB75426FA8CC7008F337F /* MoleculeScenarios.swift in Sources */,
 				FA0AB75926FA8CC7008F337F /* AllScenarios.swift in Sources */,
 				FA0AB75526FA8CC7008F337F /* ButtonView.swift in Sources */,
