@@ -14,13 +14,20 @@ let package = Package(
             targets: ["SurgeUI"])
     ],
     dependencies: [
+        .package(
+            url: "https://github.com/ArtSabintsev/FontBlaster.git",
+            from: "5.2.0"
+        )
     ],
     targets: [
         .target(
             name: "SurgeUI",
             dependencies: [
+                .product(name: "FontBlaster", package: "FontBlaster")
             ],
             resources: [
+                .process("Resources/Fonts"),
+                .process("Resources/Assets.xcassets"),
             ]
         ),
         .testTarget(

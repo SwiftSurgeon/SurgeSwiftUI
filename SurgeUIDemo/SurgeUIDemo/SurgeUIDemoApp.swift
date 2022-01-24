@@ -3,6 +3,7 @@
 //
 
 import SwiftUI
+import FontBlaster
 
 @main
 struct SurgeUIDemoApp: App {
@@ -12,5 +13,7 @@ struct SurgeUIDemoApp: App {
         }
     }
     
-    init() {}
+    init() {
+        FontBlaster.blast()
+    }
 }

@@ -8,6 +8,10 @@ struct AtomScenarios: ScenarioProvider {
                 ColorView()
             }
             
+            Scenario("Fonts", layout: .fill) { _ in
+                FontsView()
+            }
+            
             Scenario("Icons", layout: .fill) { _ in
                 IconView()
             }
