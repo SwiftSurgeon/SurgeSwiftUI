@@ -10,9 +10,42 @@ import SurgeUI
 
 struct ControlsView: View {
     
+    @State private var checkOn = true
+    @State private var checkOff = false
+    @State private var disabled = true
+    
     var body: some View {
         NavigationView {
             List {
+                Section(header: Text("Check Box Styles")) {
+                    VStack(alignment: .leading) {
+                        HStack {
+                            Toggle(isOn: $checkOn) {
+                                Text("On")
+                            }
+                            .toggleStyle(SurgeUI.ToggleStyle.checkbox)
+                            .foregroundColor(SurgeUI.Color.CIA_LightGreen)
+                            .padding()
+                        }
+                        HStack {
+                            Toggle(isOn: $checkOff) {
+                                Text("Off")
+                            }
+                            .toggleStyle(SurgeUI.ToggleStyle.checkbox)
+                            .foregroundColor(SurgeUI.Color.CFI_Green)
+                            .padding()
+                        }
+                        HStack {
+                            Toggle(isOn: $disabled) {
+                                Text("Disabled")
+                            }
+                            .toggleStyle(SurgeUI.ToggleStyle.checkbox)
+                            .foregroundColor(SurgeUI.Color.MM_LightGray)
+                            .disabled(true)
+                            .padding()
+                        }
+                    }
+                }
                 Section(header: Text("Steps (Minimalist Monochrome - Default)")) {
                     VStack(alignment: .leading) {
                         SurgeUI.StepsView(crtStep: 0)
