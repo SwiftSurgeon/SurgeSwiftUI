@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1EB93BA2715E13100A0C585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EB93B92715E13100A0C585 /* Assets.xcassets */; };
+		DFA23AFE27B958C200CBDE9F /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */; };
 		DFA603D02789E6470051FD2D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA603CF2789E6470051FD2D /* ControlsView.swift */; };
 		DFA8172D277FEC5700ED02E7 /* SurgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DFA8172C277FEC5700ED02E7 /* SurgeUI */; };
 		DFC4A515279597160046DA44 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4A514279597160046DA44 /* IconView.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		B1EB93B92715E13100A0C585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Scenarios/Assets.xcassets; sourceTree = "<group>"; };
+		DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
 		DFA603CF2789E6470051FD2D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		DFA81726277FE79E00ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
 		DFA81729277FE84900ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				FA0AB74B26FA8CC7008F337F /* ButtonView.swift */,
 				FA0AB74A26FA8CC7008F337F /* MoleculeScenarios.swift */,
 				DFA603CF2789E6470051FD2D /* ControlsView.swift */,
+				DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */,
 			);
 			path = Molecules;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0AB75A26FA8CC7008F337F /* OrganismScenarios.swift in Sources */,
+				DFA23AFE27B958C200CBDE9F /* ProgressViews.swift in Sources */,
 				DFA603D02789E6470051FD2D /* ControlsView.swift in Sources */,
 				FA0AB75726FA8CC7008F337F /* ColorView.swift in Sources */,
 				FA0AB72026FA8C7B008F337F /* ContentView.swift in Sources */,

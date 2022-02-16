@@ -7,6 +7,10 @@ struct MoleculeScenarios: ScenarioProvider {
             Scenario("Controls", layout: .sizing(h: .fill, v: 1100)) {
                 ControlsView()
             }
+            
+            Scenario("ProgressViews", layout: .fill) { _ in
+                ProgressViews()
+            }
         }
     }
 }
