@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1EB93BA2715E13100A0C585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EB93B92715E13100A0C585 /* Assets.xcassets */; };
+		DF2FFED927C404BB00BB3162 /* InputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2FFED827C404BB00BB3162 /* InputsView.swift */; };
 		DFA23AFE27B958C200CBDE9F /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */; };
 		DFA603D02789E6470051FD2D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA603CF2789E6470051FD2D /* ControlsView.swift */; };
 		DFA8172D277FEC5700ED02E7 /* SurgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DFA8172C277FEC5700ED02E7 /* SurgeUI */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		B1EB93B92715E13100A0C585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Scenarios/Assets.xcassets; sourceTree = "<group>"; };
+		DF2FFED827C404BB00BB3162 /* InputsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputsView.swift; sourceTree = "<group>"; };
 		DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
 		DFA603CF2789E6470051FD2D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		DFA81726277FE79E00ED02E7 /* SurgeUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurgeUI; path = ../SurgeUI; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				FA0AB74B26FA8CC7008F337F /* ButtonView.swift */,
 				FA0AB74A26FA8CC7008F337F /* MoleculeScenarios.swift */,
 				DFA603CF2789E6470051FD2D /* ControlsView.swift */,
+				DF2FFED827C404BB00BB3162 /* InputsView.swift */,
 				DFA23AFD27B958C200CBDE9F /* ProgressViews.swift */,
 			);
 			path = Molecules;
@@ -388,6 +391,7 @@
 				FA0AB75826FA8CC7008F337F /* AtomScenarios.swift in Sources */,
 				DFC4A515279597160046DA44 /* IconView.swift in Sources */,
 				FA0AB75426FA8CC7008F337F /* MoleculeScenarios.swift in Sources */,
+				DF2FFED927C404BB00BB3162 /* InputsView.swift in Sources */,
 				FA0AB75926FA8CC7008F337F /* AllScenarios.swift in Sources */,
 				FA0AB75526FA8CC7008F337F /* ButtonView.swift in Sources */,
 				DFE4F7C3279DC87000D08125 /* FontsView.swift in Sources */,
