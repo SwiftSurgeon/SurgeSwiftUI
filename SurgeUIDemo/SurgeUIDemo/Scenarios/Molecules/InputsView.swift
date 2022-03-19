@@ -14,12 +14,12 @@ struct InputsView: View {
         NavigationView {
             List {
                 Section(header: Text("Text Field")) {
-                    SurgeUI.InputTextField(textValue: $filledText, secured: false)
+                    SurgeUI.InputTextField(placeholder: "Email", textValue: $filledText, secured: false)
                         .frame(idealWidth: 200.0)
                 }
                 .padding(30)
                 Section(header: Text("Secure Text Field")) {
-                    SurgeUI.InputTextField(textValue: $filledText, secured: true)
+                    SurgeUI.InputTextField(placeholder: "Password", textValue: $filledText, secured: true)
                     .frame(idealWidth: 200.0)
                     .padding(.leading, 30.0)
                 }

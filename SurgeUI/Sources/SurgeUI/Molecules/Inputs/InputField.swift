@@ -8,6 +8,7 @@ import SwiftUI
 
 public extension SurgeUI {
     struct InputTextField: View {
+        private var placeholder: String?
         private var secureField: Bool
         @State private var textValue: Binding<String>
         @State private var isSecured: Bool = true
@@ -16,7 +17,7 @@ public extension SurgeUI {
             VStack {
                 HStack {
                     if secureField && isSecured {
-                        SecureField("Placeholder", text: textValue)
+                        SecureField(placeholder ?? "", text: textValue)
                             .textFieldStyle(.roundedBorder)
                             .foregroundColor(SurgeUI.Color.MM_MidnightGray)
                         SwiftUI.Button(action: {
@@ -35,7 +36,7 @@ public extension SurgeUI {
                         .foregroundColor(SurgeUI.Color.MM_MidnightGray)
                         .offset(x: -40.0, y: 0.0)
                     } else if !isSecured || !secureField {
-                        TextField("Placeholder", text: textValue)
+                        TextField(placeholder ?? "", text: textValue)
                             .textFieldStyle(.roundedBorder)
                             .foregroundColor(SurgeUI.Color.MM_MidnightGray)
                         if secureField {
@@ -61,7 +62,8 @@ public extension SurgeUI {
                 
         }
         
-        public init(textValue: Binding<String>, secured: Bool){
+        public init(placeholder: String?, textValue: Binding<String>, secured: Bool){
+            self.placeholder = placeholder
             self.textValue = textValue
             self.secureField = secured
             self.isSecured = secured

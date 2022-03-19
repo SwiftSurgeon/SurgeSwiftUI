@@ -13,10 +13,33 @@ struct ControlsView: View {
     @State private var checkOn = true
     @State private var checkOff = false
     @State private var disabled = true
+    @State private var stateOn = true
+    @State private var stateOff = false
+    
+    @State private var fixedOff = false
     
     var body: some View {
         NavigationView {
             List {
+                Section(header: Text("Toggle Styles")) {
+                    VStack(alignment: .leading) {
+                        HStack {
+                            Toggle("On", isOn: $stateOn)
+                                .toggleStyle(SurgeUI.ToggleStyle.toggle)
+                                .padding()
+                        }
+                        HStack {
+                            Toggle("Off", isOn: $stateOff)
+                                .toggleStyle(SurgeUI.ToggleStyle.toggle)
+                                .padding()
+                        }
+                        HStack {
+                            Toggle("Disabled", isOn: $fixedOff)
+                                .toggleStyle(SurgeUI.ToggleStyle.toggle).disabled(true)
+                                .padding()
+                        }
+                    }
+                }
                 Section(header: Text("Check Box Styles")) {
                     VStack(alignment: .leading) {
                         HStack {
