@@ -17,13 +17,18 @@ let package = Package(
         .package(
             url: "https://github.com/ArtSabintsev/FontBlaster.git",
             from: "5.2.0"
+        ),
+        .package(
+            url: "https://github.com/spacenation/swiftui-sliders.git",
+            from: "1.0.0"
         )
     ],
     targets: [
         .target(
             name: "SurgeUI",
             dependencies: [
-                .product(name: "FontBlaster", package: "FontBlaster")
+                .product(name: "FontBlaster", package: "FontBlaster"),
+                .product(name: "Sliders", package: "swiftui-sliders")
             ],
             resources: [
                 .process("Resources/Fonts"),
