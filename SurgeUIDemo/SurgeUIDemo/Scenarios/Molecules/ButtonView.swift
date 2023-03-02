@@ -2,7 +2,6 @@
 //  ButtonView.swift
 //
 
-
 import SwiftUI
 import SurgeUI
 
@@ -23,5 +22,4 @@ public struct ButtonView: View {
     }
 
     public init() {}
-    
 }

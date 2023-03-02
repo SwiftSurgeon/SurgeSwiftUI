@@ -8,7 +8,6 @@ import SurgeUI
 public struct ColorView: View {
 
     let size: CGFloat = 45.0
-    
     public var body: some View {
         NavigationView {
             List {
@@ -44,7 +43,6 @@ public struct ColorView: View {
                         Text("MMC_Lavender")
                     }
                 }
-                
                 Section(header: Text("Bright Vibrant Color Palette")) {
                     HStack {
                         Rectangle()
@@ -77,7 +75,6 @@ public struct ColorView: View {
                         Text("BV_LightGray")
                     }
                 }
-                
                 Section(header: Text("Colorful Icons and Accent Color Palette")) {
                     HStack {
                         Rectangle()
@@ -110,7 +107,6 @@ public struct ColorView: View {
                         Text("CIA_BurntOrange")
                     }
                 }
-                
                 Section(header: Text("Minimalist Monochrome Color Palette")) {
                     HStack {
                         Rectangle()
@@ -143,7 +139,6 @@ public struct ColorView: View {
                         Text("MM_DarkGray")
                     }
                 }
-                
                 Section(header: Text("Dreamy Gradients Color Palette")) {
                     HStack {
                         Rectangle()
@@ -176,7 +171,6 @@ public struct ColorView: View {
                         Text("DG_Lavendar")
                     }
                 }
-                
                 Section(header: Text("Colorful Flat Illustrations Color Palette")) {
                     HStack {
                         Rectangle()

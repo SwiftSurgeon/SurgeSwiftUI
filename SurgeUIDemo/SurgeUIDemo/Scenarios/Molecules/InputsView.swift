@@ -6,11 +6,11 @@ import SwiftUI
 import SurgeUI
 
 struct InputsView: View {
-    
+
     @State var filledText = "Hello World!"
-    
+
     var body: some View {
-        
+
         NavigationView {
             List {
                 Section(header: Text("Text Field")) {
@@ -24,7 +24,7 @@ struct InputsView: View {
                     .padding(.leading, 30.0)
                 }
                 .padding(10)
-                
+
                 Section(header: Text("Slider Styles")) {
                     VStack(alignment: .leading) {
                         HStack {

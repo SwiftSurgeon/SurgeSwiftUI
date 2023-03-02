@@ -25,7 +25,7 @@ public struct FontsView: View {
                         }
                 }
                 Section(header: Text("Jacques Francois Shadow Font - JFS_Regular")) {
-                    Group{
+                    Group {
                         VStack {
                             Text("It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so.")
                                 .font(SurgeUI.Font.JFS_Regular)
@@ -41,7 +41,7 @@ public struct FontsView: View {
                     }
                 }
                 Section(header: Text("Londrina Shadow Font - LS_Regular")) {
-                    Group{
+                    Group {
                         VStack {
                             Text("The greatest glory in living lies not in never falling, but in rising every time we fall.")
                                 .font(SurgeUI.Font.LS_Regular)
@@ -57,7 +57,7 @@ public struct FontsView: View {
                     }
                 }
                 Section(header: Text("Vast Shadow Font - VS_Regular")) {
-                    Group{
+                    Group {
                         VStack {
                             Text("Tell me and I forget. Teach me and I remember. Involve me and I learn.")
                                 .font(SurgeUI.Font.VS_Regular)
@@ -73,7 +73,7 @@ public struct FontsView: View {
                     }
                 }
                 Section(header: Text("WCWunderbach Paint Font - WCW_Regular")) {
-                    Group{
+                    Group {
                         VStack {
                             Text("Don't judge each day by the harvest you reap but by the seeds that you plant.")
                                 .font(SurgeUI.Font.WCW_Regular)

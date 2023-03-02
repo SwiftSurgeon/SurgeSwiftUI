@@ -9,15 +9,12 @@ import SwiftUI
 import SurgeUI
 
 struct ControlsView: View {
-    
     @State private var checkOn = true
     @State private var checkOff = false
     @State private var disabled = true
     @State private var stateOn = true
     @State private var stateOff = false
-    
     @State private var fixedOff = false
-    
     var body: some View {
         NavigationView {
             List {

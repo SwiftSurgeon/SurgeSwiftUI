@@ -12,7 +12,7 @@ struct SurgeUIDemoApp: App {
             ContentView()
         }
     }
-    
+
     init() {
         FontBlaster.blast()
     }

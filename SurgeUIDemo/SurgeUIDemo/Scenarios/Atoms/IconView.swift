@@ -9,7 +9,7 @@ import SwiftUI
 import SurgeUI
 
 public struct IconView: View {
-    
+
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -19,14 +19,14 @@ public struct IconView: View {
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
-        
+
     public var body: some View {
         NavigationView {
             List {
                 Section(header: Text("Font Awesome Free Regular Icons")) {
                     LazyVGrid(columns: columns, spacing: 10) {
-                        Group{
-                            Group{
+                        Group {
+                            Group {
                                 SurgeUI.Image.address_book
                                     .resizable()
                                     .frame(width: 32.0, height: 32.0)
@@ -58,7 +58,7 @@ public struct IconView: View {
                                     .resizable()
                                     .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.arrow_alt_circle_right
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -90,7 +90,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.calendar_times
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -122,7 +122,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.clipboard
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -154,7 +154,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.copyright
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -186,7 +186,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.file_archive
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -218,7 +218,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.flag
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -250,7 +250,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.grin_alt
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -282,7 +282,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.grin_tongue
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -314,7 +314,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.hand_pointer
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -347,8 +347,8 @@ public struct IconView: View {
                                    .frame(width: 32.0, height: 32.0)
                             }
                         }
-                        Group{
-                            Group{
+                        Group {
+                            Group {
                                 SurgeUI.Image.id_card
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -380,7 +380,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.laugh
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -412,7 +412,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.money_bill_alt
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -444,7 +444,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.registered
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -476,7 +476,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.star_half
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -508,7 +508,7 @@ public struct IconView: View {
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
                             }
-                            Group{
+                            Group {
                                 SurgeUI.Image.trash_alt
                                    .resizable()
                                    .frame(width: 32.0, height: 32.0)
@@ -542,5 +542,5 @@ public struct IconView: View {
         .navigationViewStyle(StackNavigationViewStyle())
     }
 
-    //public init() {}
+    // public init() {}
 }
